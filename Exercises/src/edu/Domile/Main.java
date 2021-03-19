@@ -3,6 +3,9 @@ package edu.Domile;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        MyThread Jonas = new MyThread("Jonas");
+
+
+        Jonas.start();
     }
 }
